@@ -17,7 +17,7 @@
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="quN-dw-Ouc">
                                 <rect key="frame" x="95" y="192" width="706" height="31"/>
-                                <color key="tintColor" red="0.47308010737429662" green="0.57300695868061213" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.1590109468" green="0.31740865109999999" blue="0.32549381259999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="58W-CO-TPB"/>
                                     <constraint firstAttribute="width" constant="702" id="abd-aT-96I"/>
@@ -29,10 +29,13 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FV0-Lc-U6J">
                                 <rect key="frame" x="425" y="269" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="touchUpHitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IEF-p3-K9W"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.78141425680002985" green="1" blue="0.91964129765740932" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.84818118809999998" green="0.68038076160000005" blue="0.23121896389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="quN-dw-Ouc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4V2-dJ-LTl"/>
                             <constraint firstItem="FV0-Lc-U6J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6zE-DM-j3q"/>
@@ -40,6 +43,9 @@
                             <constraint firstItem="FV0-Lc-U6J" firstAttribute="top" secondItem="quN-dw-Ouc" secondAttribute="bottom" constant="47" id="hrs-Wp-vOm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="slider" destination="quN-dw-Ouc" id="aMD-TO-dAP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
