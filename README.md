@@ -1,6 +1,12 @@
 # UpDownGame
 Up and Down Game with Swift (For Beginners)
 
+<img width="800" alt="1" src="https://user-images.githubusercontent.com/60697742/110894167-bb617400-833a-11eb-94da-7bd8b3676a71.gif">
+
+<br>
+
+### 로고
+
 <img width="800" alt="1" src="https://user-images.githubusercontent.com/60697742/110890579-a503ea00-8333-11eb-9aa8-3c2e3b001d8e.png">
 
 <br>
